@@ -54,6 +54,10 @@ class CountriesViewHelper extends AbstractViewHelper
 		// get countries from static_info_tables
 		if (ExtensionManagementUtility::isLoaded('static_info_tables')) {
 			$iso2Key = $GLOBALS['TSFE']->lang;
+			// maybe the $iso2Key is longer than 2 chars, e.g. if something like a locale de-ch is set.
+            if (strlen($iso2Key) > 2) {
+                $iso2Key = substr($iso2Key, 0, 2);
+            }
 			$version = '6.2.0';
 			$countriesFromStaticInfoTables = $this->objectManager->get('RENOLIT\ReintPowermailCountry\Utility\CountriesFromStaticInfoTables');
 
