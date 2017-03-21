@@ -9,30 +9,28 @@
  * ************************************************************* */
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Powermail Country Viewhelper',
-	'description' => 'A better viewhelper for the powermail country select field.',
-	'category' => 'plugin',
-	'author' => 'Ephraim Härer',
-	'author_email' => 'ephraim.haerer@renolit.com',
-	'state' => 'stable',
-	'uploadfolder' => false,
-	'createDirs' => '',
-	'clearCacheOnLoad' => 0,
-	'version' => '1.2.3',
-	'constraints' =>
-	array(
-		'depends' =>
-		array(
-			'typo3' => '6.2.0-7.99.99',
-		),
-		'conflicts' =>
-		array(
-		),
-		'suggests' =>
-		array(
-		),
-	),
-	'clearcacheonload' => false,
-	'author_company' => '',
+    'title' => 'Powermail Country Viewhelper',
+    'description' => 'A better viewhelper for the powermail country select field.',
+    'category' => 'plugin',
+    'author' => 'Ephraim Härer',
+    'author_email' => 'ephraim.haerer@renolit.com',
+    'state' => 'stable',
+    'uploadfolder' => false,
+    'createDirs' => '',
+    'clearCacheOnLoad' => 0,
+    'version' => '1.2.3',
+    'constraints' =>
+        array(
+            'depends' =>
+                array(
+                    'typo3' => '6.2.0-7.99.99',
+                ),
+            'conflicts' =>
+                array(),
+            'suggests' =>
+                array(),
+        ),
+    'clearcacheonload' => false,
+    'author_company' => '',
 );
 

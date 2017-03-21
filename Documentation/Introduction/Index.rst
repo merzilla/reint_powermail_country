@@ -55,9 +55,9 @@ Screenshots
 
 
 .. figure:: ../Images/Introduction/country_select.jpg
-   :width: 500px
+:width: 500px
    :alt: Country select
 
-   Country select
+	   Country select
 
-   A country select with German translated countries ordered by name and with "other country" option.
+	   A country select with German translated countries ordered by name and with "other country" option.

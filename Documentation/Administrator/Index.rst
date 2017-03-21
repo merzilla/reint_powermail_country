@@ -33,12 +33,12 @@ To install the extension, perform the following steps:
 
 
 .. figure:: ../Images/Administrator/installation.jpg
-   :width: 800px
+:width: 800px
    :alt: Installation of static_info_tables
 
-   Installation of static_info_tables
+	   Installation of static_info_tables
 
-   Execute the update script after installation of a static_info_tables extension
+	   Execute the update script after installation of a static_info_tables extension
 
 
 

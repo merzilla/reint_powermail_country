@@ -4,8 +4,8 @@ $extensionClassesPath = \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extP
 
 // set array with classes that should be automatical loaded
 $default = array(
-	'RENOLIT\\ReintPowermailCountry\\Utility\\CountriesFromStaticInfoTables' => $extensionClassesPath . 'Utility/CountriesFromStaticInfoTables.php',
-	'RENOLIT\\ReintPowermailCountry\\ViewHelpers\\Form\\CountriesViewHelper' => $extensionClassesPath . 'ViewHelpers/Form/CountriesViewHelper.php',
+    'RENOLIT\\ReintPowermailCountry\\Utility\\CountriesFromStaticInfoTables' => $extensionClassesPath . 'Utility/CountriesFromStaticInfoTables.php',
+    'RENOLIT\\ReintPowermailCountry\\ViewHelpers\\Form\\CountriesViewHelper' => $extensionClassesPath . 'ViewHelpers/Form/CountriesViewHelper.php',
 );
 
 return $default;
